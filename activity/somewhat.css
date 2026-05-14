@@ -1,0 +1,17 @@
+header{
+    
+    height: 1000px;
+    width: 1000px;
+    background-color: rgb(172, 172, 205);
+    background-image: url(copyright-free-images-750x420.jpg);
+    background-size: 150px 500px;
+   
+    background-repeat:repeat ;
+    color: blueviolet;
+    
+}
+*{background-color: rgb(18, 18, 18);}
+body{ background-color: antiquewhite;
+    
+}
+div{ font-style: italic;background-color:chocolate;}
