@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1b1b1b;
+    background-color: #f4ffd8;
+    background-image: url("images/repeat-bg.png"), url("images/side-bg.png");
+    background-repeat: repeat, no-repeat;
+    background-position: left top, right top;
+    margin: 0;
+}
+
+header {
+    background-color: #6fa842;
+    color: white;
+    text-align: center;
+    border-bottom: 6px solid #32551d;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+header p {
+    margin: 6px 0 0 0;
+}
+
+nav {
+    background-color: #d6b15a;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 3px solid #5c4214;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #fff2b8;
+    color: #003b00;
+    padding: 7px 10px;
+    margin: 3px;
+    border: 2px solid #333333;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav a.current {
+    background-color: #ffcc00;
+    color: #8b0000;
+    border: 3px dashed #8b0000;
+}
+
+main {
+    max-width: 760px;
+    background-color: #ffffe8;
+    margin: 18px auto;
+    padding: 15px;
+    border: 4px double #5c4214;
+}
+
+h2 {
+    color: #245c18;
+    background-color: #e3f0bd;
+    padding: 8px;
+    border: 2px solid #245c18;
+}
+
+h3 {
+    color: #5c4214;
+}
+
+.tour-list {
+    list-style-image: url("images/bullet.png");
+    background-color: #fff7c8;
+    border: 2px solid #5c4214;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tour-list li {
+    margin: 9px;
+    font-size: 18px;
+}
+
+figure {
+    background-color: #ffffff;
+    padding: 8px;
+    margin: 15px 0;
+    border: 2px solid #444444;
+}
+
+.tour-photo {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    border: 5px solid #6fa842;
+}
+
+figcaption {
+    font-size: 15px;
+    color: #333333;
+    background-color: #eeeeee;
+    padding: 6px;
+}
+
+.note {
+    background-color: #eeeeee;
+    padding: 8px;
+    border: 1px solid #444444;
+}
+
+footer {
+    background-color: #32551d;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-top: 5px solid #d6b15a;
+}
