@@ -1,0 +1,5 @@
+HTML pages found: 6
+Pages: angkor-wat.html, bayon-temple.html, central-market.html, index.html, royal-palace.html, ta-prohm.html
+Place-page photos found: 9
+Pages with more than 2 photos: angkor-wat.html, ta-prohm.html
+Issues found: none in basic local check

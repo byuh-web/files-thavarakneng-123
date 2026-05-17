@@ -1,0 +1,138 @@
+/* One external CSS file used by every page. Intentionally simple and ugly. */
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    color: black;
+    background-color: yellow;
+    background-image: url("images/soft-pattern.svg"), url("images/angkor-decor.svg");
+    background-repeat: repeat, no-repeat;
+    background-position: top left, right 80px;
+}
+
+header {
+    background-color: lime;
+    color: purple;
+    text-align: center;
+    padding: 12px;
+    border-bottom: 6px dotted red;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: orange;
+    text-align: left;
+    padding: 6px;
+    border-bottom: 5px solid blue;
+}
+
+nav a {
+    color: blue;
+    background-color: white;
+    text-decoration: underline;
+    padding: 5px;
+    margin: 3px;
+    display: inline-block;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: pink;
+}
+
+nav a.active {
+    background-color: red;
+    color: white;
+    border: 4px solid yellow;
+}
+
+main {
+    background-color: #ffffcc;
+    width: 88%;
+    margin: 12px auto;
+    padding: 12px;
+    border: 5px dashed green;
+}
+
+h2 {
+    color: red;
+    background-color: aqua;
+    padding: 4px;
+    border: 2px solid purple;
+}
+
+p {
+    line-height: 1.3;
+}
+
+.tour-list {
+    list-style-image: url("images/lotus-bullet.svg");
+    background-color: pink;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid black;
+}
+
+.tour-list li {
+    margin-bottom: 8px;
+}
+
+.tour-list a {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.photo {
+    background-color: white;
+    border: 4px solid red;
+    padding: 5px;
+    margin: 12px 0;
+}
+
+.photo img {
+    max-width: 100%;
+    display: block;
+    margin: 0;
+    border: 3px dotted blue;
+}
+
+figcaption {
+    font-size: 14px;
+    margin-top: 5px;
+    color: purple;
+    background-color: #eeeeee;
+}
+
+figcaption a {
+    color: blue;
+}
+
+.next-link {
+    display: inline-block;
+    margin-top: 8px;
+    background-color: purple;
+    color: yellow;
+    padding: 6px;
+    border: 3px solid black;
+}
+
+footer {
+    background-color: lime;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    margin-top: 15px;
+    border-top: 6px dotted red;
+    font-weight: bold;
+}

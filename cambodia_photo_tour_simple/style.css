@@ -1,0 +1,113 @@
+/* One simple CSS file for the whole photo tour website */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    background-color: #f8f1e5;
+    background-image: url("images/soft-pattern.svg"), url("images/angkor-decor.svg");
+    background-repeat: repeat, no-repeat;
+    background-position: top left, right 120px;
+}
+
+header {
+    background-color: #7b2d26;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 8px 0 0 0;
+}
+
+nav {
+    background-color: #2f241f;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+    margin: 2px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #b85c38;
+}
+
+nav a.active {
+    background-color: #ffd36a;
+    color: black;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #c9b28a;
+}
+
+h2 {
+    color: #7b2d26;
+}
+
+.tour-list {
+    list-style-image: url("images/lotus-bullet.svg");
+}
+
+.tour-list li {
+    margin-bottom: 10px;
+}
+
+.tour-list a {
+    color: #7b2d26;
+    font-weight: bold;
+}
+
+.photo {
+    background-color: #fff8ea;
+    border: 1px solid #c9b28a;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.photo img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+figcaption a {
+    color: #7b2d26;
+}
+
+.next-link {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #7b2d26;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #2f241f;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    margin-top: 25px;
+}
