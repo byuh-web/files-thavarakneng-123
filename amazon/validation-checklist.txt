@@ -1,0 +1,16 @@
+Rubric Checklist
+
+[Yes] 6 HTML pages: index.html plus 5 place pages.
+[Yes] Every page has header, nav, main, and footer.
+[Yes] Header, nav, and footer are the same on every page except the current nav highlight.
+[Yes] Nav includes all pages in the same order and does not hide the current page.
+[Yes] Each place page has at least one image with a caption.
+[Yes] Two place pages have more than two photos: Amazon River and Rainforest Trail have 3 each.
+[Yes] There are 9 tour photos total.
+[Yes] Home page uses ul and li for the tour places.
+[Yes] CSS uses two background images: one repeating and one non-repeating.
+[Yes] One external CSS file is used for the whole website.
+[Yes] Custom bullet image is used on the home page list.
+[Yes] No HTML width or height attributes are used to resize images.
+
+Before submitting, upload the HTML and CSS files to the W3C validators.

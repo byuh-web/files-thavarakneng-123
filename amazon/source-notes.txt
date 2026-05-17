@@ -1,0 +1,8 @@
+Amazon Photo Tour Source Notes
+
+All nine tour images in this folder were created locally for this school project.
+They are original project images, so there is no copyright problem.
+The repeating background image, decorative side image, and bullet image were also created locally for this project.
+
+This project uses one external CSS file: style.css.
+The HTML files do not use width or height attributes to resize images.
