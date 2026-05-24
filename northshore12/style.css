@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+nav a:hover{color: black;}
+nav a:visited{color: red;}
+body{ font-size: medium; color:darkred;
+font-family: Caesar Dressing;}
+.question1{color:blue;}
+.question2{color:lightgrey}
+span {color:darkmagenta}
+body{background-color: rgb(144, 214, 214);}
