@@ -1,0 +1,14 @@
+.card {
+  background-color: lightblue;
+  width: 400px;
+
+  /* Round 2: Padding */
+  padding: 10px 30px;
+
+  /* Round 3: Border */
+  border: 3px solid navy;
+  box-sizing: border-box;
+
+  /* Round 4: Margin */
+  margin: 0 auto 24px auto;
+}
