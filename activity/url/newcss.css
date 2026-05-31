@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    background-color: #e8e1d3;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    width: 850px;
+    margin: 20px auto;
+    background-color: white;
+    border: 2px solid brown;
+    border-radius: 12px;
+    
+}
+
+header {
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    background-image: url("Eastern_Han-Three_Kingdoms_Battle_Painting_b.jpg");
+    background-size: cover;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+  
+}
+
+nav {
+    padding: 15px;
+    text-align: center;
+    background-color: brown;
+}
+
+nav a {
+    margin: 15px;
+    padding: 8px;
+    color: white;
+}
+
+nav a:hover {
+    background-color: white;
+    color: brown;
+}
+
+main {
+    padding: 25px;
+    line-height: 1.5;
+}
+
+figure {
+    float: left;
+    width: 300px;
+    margin: 0 20px 15px 0;
+    padding: 10px;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    font-size: 14px;
+
+    text-align: center;
+}
+
+p {
+    font-size: 17px;
+}
+
+footer {
+  
+    padding: 15px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+
