@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" role="img" aria-labelledby="title desc">
+<title id="title">Original Jupiter illustration</title>
+<desc id="desc">A banded gas giant planet with a red storm spot.</desc>
+<rect width="700" height="460" fill="#07111f"/>
+<g fill="#fff" opacity="0.7"><circle cx="80" cy="90" r="2"/><circle cx="575" cy="70" r="1.5"/><circle cx="620" cy="330" r="1.7"/><circle cx="165" cy="365" r="1.4"/></g>
+<clipPath id="clip"><circle cx="350" cy="218" r="145"/></clipPath>
+<circle cx="350" cy="218" r="145" fill="#d6b083"/>
+<g clip-path="url(#clip)">
+<rect x="195" y="98" width="310" height="38" fill="#f1d5a8"/>
+<rect x="195" y="146" width="310" height="28" fill="#9c6848"/>
+<rect x="195" y="185" width="310" height="34" fill="#e0bf8d"/>
+<rect x="195" y="231" width="310" height="30" fill="#8e5b45"/>
+<rect x="195" y="274" width="310" height="42" fill="#e8c894"/>
+<ellipse cx="450" cy="250" rx="48" ry="28" fill="#b94e35"/>
+<ellipse cx="438" cy="245" rx="21" ry="12" fill="#d98257" opacity="0.9"/>
+</g>
+<circle cx="350" cy="218" r="145" fill="none" stroke="#f5f7fb" stroke-opacity="0.12" stroke-width="3"/>
+<text x="350" y="430" text-anchor="middle" fill="#f5f7fb" font-family="Arial" font-size="24" font-weight="700">Jupiter</text>
+</svg>

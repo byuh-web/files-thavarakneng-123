@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Styled form page for the solar system website.">
+  <meta name="author" content="Student Project">
+  <title>Contact | Solar System Mini Site</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Solar System Mini Site</h1>
+    <p>A simple class website about space.</p>
+  </header>
+  <nav>
+    <a href="index.html" class="">Home</a>
+    <a href="moon.html" class="">Moon</a>
+    <a href="mars.html" class="">Mars</a>
+    <a href="jupiter.html" class="">Jupiter</a>
+    <a href="saturn.html" class="">Saturn</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+  <main>
+    <section class="card">
+  <h2>Space Interest Form</h2>
+  <p>This form asks visitors what space topic they like most. It is a new form created for this project.</p>
+  <img src="images/form.svg" alt="Original form illustration" class="page-img">
+  <p><strong>Image note:</strong> This is an original SVG illustration made for this project.</p>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="name@example.com">
+    <label for="topic">Favorite Topic</label>
+    <select id="topic" name="topic">
+      <option>Moon</option><option>Mars</option><option>Jupiter</option><option>Saturn</option>
+    </select>
+    <label for="message">Why do you like this topic?</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+  </main>
+  <footer>
+    <p>&copy; 2026 Student Project. Original SVG images created for this assignment.</p>
+  </footer>
+</body>
+</html>

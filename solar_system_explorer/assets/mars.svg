@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" role="img" aria-labelledby="title desc">
+<title id="title">Original Mars illustration</title>
+<desc id="desc">A red planet with dust-colored surface markings.</desc>
+<rect width="700" height="460" fill="#07111f"/>
+<g fill="#fff" opacity="0.7"><circle cx="100" cy="75" r="2"/><circle cx="560" cy="80" r="1.6"/><circle cx="620" cy="250" r="2"/><circle cx="210" cy="350" r="1.4"/></g>
+<circle cx="350" cy="218" r="140" fill="#c95c36"/>
+<path d="M230 170 C270 125 330 148 374 132 C440 107 482 134 505 175 C455 160 425 180 375 172 C330 165 285 190 230 170Z" fill="#e0965d" opacity="0.8"/>
+<path d="M245 260 C315 235 350 255 406 245 C452 238 498 260 516 294 C455 320 378 315 318 300 C285 292 262 285 245 260Z" fill="#8e3525" opacity="0.55"/>
+<circle cx="290" cy="210" r="25" fill="#7c2f24" opacity="0.5"/>
+<circle cx="440" cy="188" r="16" fill="#7c2f24" opacity="0.45"/>
+<text x="350" y="430" text-anchor="middle" fill="#f5f7fb" font-family="Arial" font-size="24" font-weight="700">Mars</text>
+</svg>

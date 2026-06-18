@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Solar system comparison page with a new table and a styled form.">
+  <meta name="keywords" content="planet comparison, solar system table, CSS form, student project">
+  <meta name="author" content="So Neng">
+  <title>Solar System Explorer | Compare & Join</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Compare & Join</h1>
+    <p class="tagline">Use a new comparison table, then fill out a styled form for a pretend student space club.</p>
+  </header>
+
+  <nav class="navbar" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="moon.html">Moon</a>
+    <a href="mars.html">Mars</a>
+    <a href="jupiter.html">Jupiter</a>
+    <a href="saturn.html">Saturn</a>
+    <a class="active" href="compare.html">Compare & Join</a>
+  </nav>
+
+  <main>
+    <section class="content-grid">
+      <figure>
+        <img class="planet-image" src="assets/compare.svg" alt="Original planet comparison illustration">
+        <figcaption class="image-credit">Image attribution: original SVG illustration created for this assignment.</figcaption>
+      </figure>
+      <div class="content-copy">
+        <h2>Why comparing worlds helps</h2>
+        <p>
+          Planet comparison helps beginners see patterns. Some objects are rocky, some are gas giants, and some are moons instead of planets. NASA lists eight planets in the solar system and explains that their sizes, distances, and features vary widely. <a class="reference" href="https://science.nasa.gov/solar-system/planets/" target="_blank" rel="noopener">NASA About the Planets</a>
+        </p>
+        <p>
+          The table below is new for this assignment. It summarizes the worlds discussed on the website in simple student language rather than copying a table from another website.
+        </p>
+      </div>
+    </section>
+
+    <section class="info-card">
+      <h2>New comparison table</h2>
+      <div class="table-wrapper">
+        <table>
+          <caption>Selected Solar System Worlds</caption>
+          <thead>
+            <tr>
+              <th>World</th>
+              <th>Category</th>
+              <th>Known For</th>
+              <th>Beginner Observation Idea</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Moon</td>
+              <td>Natural satellite</td>
+              <td>Craters and phases</td>
+              <td>Watch the shape change across several nights</td>
+            </tr>
+            <tr>
+              <td>Mars</td>
+              <td>Rocky planet</td>
+              <td>Red color, dust, valleys, and robotic missions</td>
+              <td>Look for its reddish point of light when visible</td>
+            </tr>
+            <tr>
+              <td>Jupiter</td>
+              <td>Gas giant planet</td>
+              <td>Cloud bands, Great Red Spot, and many moons</td>
+              <td>Use binoculars or a telescope to notice bright moons</td>
+            </tr>
+            <tr>
+              <td>Saturn</td>
+              <td>Gas giant planet</td>
+              <td>Large ring system</td>
+              <td>Use a telescope to see the ring shape</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        For a video explanation of size and distance, JPL provides a resource explaining why accurate scale models are difficult to make: <a class="reference" href="https://www.jpl.nasa.gov/edu/resources/video/solar-system-size-and-distance/" target="_blank" rel="noopener">NASA JPL Solar System Size and Distance</a>
+      </p>
+    </section>
+
+    <section class="form-card">
+      <h2>Styled student form</h2>
+      <p>This is a new form for this project. It uses CSS styling and includes more than four fields.</p>
+      <form action="#" method="post">
+        <div class="form-row">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email Address</label>
+          <input id="email" name="email" type="email" placeholder="example@email.com" required>
+        </div>
+
+        <div class="form-row">
+          <label for="favorite">Favorite World</label>
+          <select id="favorite" name="favorite" required>
+            <option value="">Choose one</option>
+            <option value="moon">Moon</option>
+            <option value="mars">Mars</option>
+            <option value="jupiter">Jupiter</option>
+            <option value="saturn">Saturn</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="experience">Space Interest Level</label>
+          <input id="experience" name="experience" type="range" min="1" max="10" value="6">
+        </div>
+
+        <div class="form-row">
+          <label for="message">Why do you want to learn more about space?</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write a short answer here"></textarea>
+        </div>
+
+        <div class="checkbox-row">
+          <input id="updates" name="updates" type="checkbox">
+          <label for="updates">Send me pretend club updates about future space lessons.</label>
+        </div>
+
+        <button type="submit">Submit Form</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Solar System Explorer. Student project by So Neng.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,373 @@
+/* Solar System Explorer - one external stylesheet for all pages */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #07111f;
+  --panel: #101d30;
+  --panel-light: #172a45;
+  --text: #f5f7fb;
+  --muted: #c8d2e3;
+  --accent: #f9b342;
+  --accent-2: #79d2ff;
+  --border: rgba(255, 255, 255, 0.16);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(circle at top, #14294b 0%, var(--bg) 48%, #03070d 100%);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+img,
+iframe {
+  max-width: 100%;
+}
+
+.site-header {
+  padding: 2rem 1rem 1.25rem;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(135deg, rgba(249, 179, 66, 0.15), rgba(121, 210, 255, 0.08));
+}
+
+.site-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(2rem, 5vw, 3.7rem);
+  letter-spacing: 1px;
+}
+
+.tagline {
+  max-width: 760px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background: rgba(3, 7, 13, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+
+.navbar a {
+  display: inline-block;
+  color: var(--text);
+  text-decoration: none;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+}
+
+.navbar a:hover,
+.navbar a:focus,
+.navbar a.active {
+  color: #07111f;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+main {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 2rem auto;
+}
+
+.hero,
+.content-grid,
+.info-card,
+.feature-card,
+.form-card,
+.video-card {
+  background: rgba(16, 29, 48, 0.88);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero h2,
+.content-copy h2,
+.info-card h2,
+.form-card h2,
+.video-card h2 {
+  margin-top: 0;
+  color: var(--accent);
+}
+
+.hero-image,
+.planet-image {
+  width: 100%;
+  min-height: 260px;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1rem;
+}
+
+.reference {
+  color: var(--accent-2);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.reference:hover,
+.reference:focus {
+  color: var(--accent);
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.feature-card {
+  padding: 1rem;
+}
+
+.feature-card h3 {
+  margin-top: 0;
+  color: var(--accent-2);
+}
+
+.button-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.65rem 0.95rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #07111f;
+  background: var(--accent);
+  font-weight: 700;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: start;
+}
+
+.image-credit {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+}
+
+.info-card,
+.video-card,
+.form-card {
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.quick-facts li {
+  padding: 0.9rem;
+  background: var(--panel-light);
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+  background: #0e1a2c;
+}
+
+caption {
+  padding: 0.8rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+th,
+td {
+  padding: 0.9rem;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+th {
+  background: #203555;
+  color: var(--text);
+}
+
+tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.035);
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form-row {
+  display: grid;
+  gap: 0.35rem;
+}
+
+label {
+  font-weight: 700;
+  color: var(--accent-2);
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.85rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: #07111f;
+  color: var(--text);
+  font: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 3px solid rgba(249, 179, 66, 0.35);
+  border-color: var(--accent);
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: start;
+  gap: 0.7rem;
+}
+
+.checkbox-row input {
+  width: auto;
+  margin-top: 0.35rem;
+}
+
+button {
+  width: fit-content;
+  border: none;
+  border-radius: 12px;
+  padding: 0.85rem 1.25rem;
+  background: var(--accent);
+  color: #07111f;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background: var(--accent-2);
+}
+
+.video-frame {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  border: 0;
+  border-radius: 16px;
+}
+
+.site-footer {
+  margin-top: 3rem;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  background: rgba(3, 7, 13, 0.92);
+}
+
+@media (max-width: 900px) {
+  .hero,
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    width: min(100% - 1rem, 1120px);
+    margin: 1rem auto;
+  }
+
+  .site-header {
+    padding: 1.5rem 0.8rem 1rem;
+  }
+
+  .navbar {
+    position: static;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+    padding: 0.65rem;
+  }
+
+  .navbar a {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  .hero,
+  .content-grid,
+  .info-card,
+  .video-card,
+  .form-card {
+    padding: 1rem;
+    border-radius: 16px;
+  }
+
+  .feature-list,
+  .quick-facts {
+    grid-template-columns: 1fr;
+  }
+
+  button {
+    width: 100%;
+  }
+}
