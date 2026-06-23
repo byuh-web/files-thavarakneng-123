@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" role="img" aria-labelledby="title desc">
+<title id="title">Lionel Messi player portrait card</title>
+<desc id="desc">Original no-copyright student-made portrait card representing Lionel Messi and Argentina.</desc>
+<rect width="600" height="700" fill="#f0f9ff"/>
+<rect x="0" y="0" width="600" height="120" fill="#38bdf8"/>
+<text x="34" y="76" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="white">ARG</text>
+<text x="475" y="76" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="white" text-anchor="middle">#3</text>
+<circle cx="300" cy="270" r="115" fill="#d6a16f"/>
+<ellipse cx="300" cy="405" rx="150" ry="175" fill="#38bdf8"/>
+<path d="M160 700 C170 545 225 462 300 462 C375 462 430 545 440 700Z" fill="#38bdf8"/>
+<path d="M200 223 C214 142 386 142 400 223 C358 197 246 197 200 223Z" fill="#1f2937"/>
+<circle cx="260" cy="275" r="12" fill="#111827"/>
+<circle cx="340" cy="275" r="12" fill="#111827"/>
+<path d="M263 332 C285 350 315 350 337 332" fill="none" stroke="#7f4d36" stroke-width="9" stroke-linecap="round"/>
+<path d="M235 455 L300 520 L365 455" fill="none" stroke="white" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="300" cy="560" r="44" fill="white" opacity="0.95"/>
+<text x="300" y="574" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#38bdf8" text-anchor="middle">ARG</text>
+<rect x="45" y="610" width="510" height="58" rx="16" fill="rgba(255,255,255,0.92)"/>
+<text x="300" y="647" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#0f172a" text-anchor="middle">Lionel Messi</text>
+</svg>
