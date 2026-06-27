@@ -246,20 +246,9 @@ footer p {
   max-width: 900px;
 }
 
-/* Tablet */
-@media (max-width: 850px) {
-  .intro,
-  .team-page,
-  .compare-layout {
-    grid-template-columns: 1fr;
-  }
 
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
-/* Mobile */
+
 @media (max-width: 600px) {
   nav {
     flex-direction: column;
